@@ -1,0 +1,5 @@
+Topic:
+Question text → Embedding → Compare with topic examples → nearest topic
+
+Difficulty:
+Question text → Feature engineering → Logistic Regression → easy/medium/hard

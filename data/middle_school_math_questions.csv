@@ -1,0 +1,327 @@
+question_id,topic,difficulty,skill,question,answer
+133,Fractions & Decimals,easy,decimal to fraction,Convert 0.6 to a fraction in simplest form.,3/5
+109,Fractions & Decimals,easy,adding fractions,Add: 1/3 + 2/3.,1
+138,Fractions & Decimals,medium,decimal addition,Add 12.09 and 5.06.,17.15
+10,Algebra,medium,linear equations in context,A club charges $22 plus $4 per visit. The total cost is $74. How many visits were made?,13 visits
+181,Statistics & Probability,easy,mode,"Find the mode of this data set: [9, 7, 5, 10, 3, 1].",1
+127,Fractions & Decimals,easy,decimal to fraction,Convert 0.75 to a fraction in simplest form.,3/4
+220,Ratios & Percentages,easy,simplifying ratios,Simplify the ratio 5:6.,5:6
+197,Statistics & Probability,medium,survey percentages,"In a survey of 40 students, 24 own a dog. What percentage of students own a dog?",60.0%
+267,Ratios & Percentages,hard,tips,A restaurant bill is $49 before a 15% tip. What is the total after tip?,$56.35
+145,Fractions & Decimals,medium,decimal addition,Add 4.49 and 0.82.,5.31
+180,Statistics & Probability,hard,compound probability,Two dice are rolled. What is the probability that their sum is 7?,1/6
+165,Statistics & Probability,easy,mean,"Find the mean of this data set: [23, 10, 14, 6, 19].",14.4
+227,Ratios & Percentages,medium,discounts,An item costs $82 and is discounted 20%. What is the sale price?,$65.60
+125,Fractions & Decimals,hard,fraction word problems,A recipe needs 6/5 cup of sugar. You make 1 of the recipe. How much sugar do you need?,6/5 cup
+187,Statistics & Probability,easy,mode,"Find the mode of this data set: [9, 8, 4, 8, 2, 11].",8
+303,Integers & Expressions,medium,order of operations,Evaluate: 4(2 + 7) ÷ 3.,12
+297,Integers & Expressions,easy,absolute value,Evaluate: |-21|.,21
+117,Fractions & Decimals,medium,multiplying fractions,Multiply: 1/4 × 21.,21/4
+26,Algebra,easy,writing expressions,Write an algebraic expression for: seven more than the square of a number.,x^2 + 7
+6,Algebra,easy,linear equations,Solve for x: 8x + 4 = 28.,3
+314,Integers & Expressions,hard,simplifying expressions,Simplify: 6(p + 2) + 3(p - 4).,9p
+273,Integers & Expressions,easy,integer addition,Evaluate: 11 + 5.,16
+47,Algebra,hard,variables on both sides,Solve: 7x + 12 = 2x + 47.,7
+83,Geometry,easy,triangle angles,A triangle has two angles measuring 79° and 37°. Find the third angle.,64°
+94,Geometry,medium,area of circles,Estimate the area of a circle with radius 12 inches using π ≈ 3.14.,452.16 square inches
+158,Fractions & Decimals,hard,ordering rational numbers,"Order from least to greatest: 0.77, 2/9, 0.9.","2/9, 0.77, 0.9"
+210,Statistics & Probability,hard,outliers,"Identify the possible outlier in this data set and explain why: [19, 19, 30, 17, 75].",75; it is much larger than the other values
+79,Geometry,easy,triangle angles,A triangle has two angles measuring 57° and 46°. Find the third angle.,77°
+64,Geometry,medium,area of triangles,Find the area of a triangle with base 10 cm and height 5 cm.,25 square cm
+320,Integers & Expressions,hard,simplifying expressions,Simplify: 2(4m - 5) - 3(m + 1).,5m - 13
+91,Geometry,medium,area of circles,Estimate the area of a circle with radius 9 inches using π ≈ 3.14.,254.34 square inches
+207,Statistics & Probability,hard,outliers,"Identify the possible outlier in this data set and explain why: [16, 17, 26, 34, 74].",74; it is much larger than the other values
+250,Ratios & Percentages,medium,proportions,A recipe uses 1 cups of flour for 10 cookies. How many cups are needed for 24 cookies?,2.4 cups
+176,Statistics & Probability,hard,compound probability,Two dice are rolled. What is the probability that their sum is 7?,1/6
+301,Integers & Expressions,medium,order of operations,Evaluate: -8 ÷ 2.,-4
+174,Statistics & Probability,medium,simple probability,"A spinner has 4 equal sections, and 2 sections are blue. What is the probability of landing on blue?",1/2
+56,Geometry,easy,area of rectangles,Find the area of a rectangle with length 5 units and width 4 units.,20 square units
+34,Algebra,medium,multi-step equations,Solve: 7(x + 8) - 5 = 107.,8
+102,Geometry,hard,surface area,"A rectangular prism has length 7, width 5, and height 8. Find its surface area.",262 square units
+166,Statistics & Probability,easy,mean,"Find the mean of this data set: [18, 20, 17, 24, 12].",18.2
+178,Statistics & Probability,hard,compound probability,Two dice are rolled. What is the probability that their sum is 7?,1/6
+43,Algebra,hard,variables on both sides,Solve: 4x + 4 = 1x + 13.,3
+305,Integers & Expressions,medium,order of operations,Evaluate: 24 ÷ 6 + 5.,9
+259,Ratios & Percentages,hard,tips,A restaurant bill is $149 before a 22% tip. What is the total after tip?,$181.78
+46,Algebra,hard,variables on both sides,Solve: 4x + 9 = 2x + 13.,2
+304,Integers & Expressions,medium,order of operations,Evaluate: 7 + 3 × 4.,19
+173,Statistics & Probability,medium,simple probability,"A spinner has 4 equal sections, and 2 sections are blue. What is the probability of landing on blue?",1/2
+293,Integers & Expressions,easy,absolute value,Evaluate: |-18|.,18
+58,Geometry,easy,area of rectangles,Find the area of a rectangle with length 17 units and width 5 units.,85 square units
+17,Algebra,hard,algebraic modeling,The perimeter of a rectangle is 56 inches. The length is 6 inches more than the width. Find both dimensions.,"width = 11 in, length = 17 in"
+77,Geometry,easy,triangle angles,A triangle has two angles measuring 39° and 59°. Find the third angle.,82°
+110,Fractions & Decimals,easy,adding fractions,Add: 4/5 + 4/5.,8/5
+8,Algebra,medium,linear equations in context,A club charges $23 plus $3 per visit. The total cost is $62. How many visits were made?,13 visits
+76,Geometry,easy,triangle angles,A triangle has two angles measuring 47° and 74°. Find the third angle.,59°
+78,Geometry,easy,triangle angles,A triangle has two angles measuring 59° and 74°. Find the third angle.,47°
+289,Integers & Expressions,easy,absolute value,Evaluate: |-9|.,9
+285,Integers & Expressions,hard,integer change,The temperature changed from 17°F to -2°F. What was the change in temperature?,-19°F
+246,Ratios & Percentages,medium,proportions,A recipe uses 4 cups of flour for 32 cookies. How many cups are needed for 36 cookies?,4.5 cups
+4,Algebra,easy,linear equations,Solve for x: 2x + 4 = 24.,10
+120,Fractions & Decimals,medium,multiplying fractions,Multiply: 7/6 × 17.,119/6
+105,Geometry,hard,surface area,"A rectangular prism has length 5, width 4, and height 6. Find its surface area.",148 square units
+232,Ratios & Percentages,hard,percent increase,A value increases from 174 to 191.4. What is the percent increase?,10%
+61,Geometry,medium,area of triangles,Find the area of a triangle with base 7 cm and height 5 cm.,17.5 square cm
+95,Geometry,medium,area of circles,Estimate the area of a circle with radius 13 inches using π ≈ 3.14.,530.66 square inches
+266,Ratios & Percentages,hard,tips,A restaurant bill is $83 before a 18% tip. What is the total after tip?,$97.94
+74,Geometry,easy,triangle angles,A triangle has two angles measuring 41° and 58°. Find the third angle.,81°
+182,Statistics & Probability,easy,mode,"Find the mode of this data set: [9, 12, 4, 2, 3, 5].",2
+18,Algebra,hard,algebraic modeling,The perimeter of a rectangle is 48 inches. The length is 4 inches more than the width. Find both dimensions.,"width = 10 in, length = 14 in"
+25,Algebra,easy,writing expressions,Write an algebraic expression for: a number divided by 5 plus 9.,x/5 + 9
+147,Fractions & Decimals,medium,decimal addition,Add 2.36 and 7.21.,9.57
+263,Ratios & Percentages,hard,tips,A restaurant bill is $104 before a 22% tip. What is the total after tip?,$126.88
+280,Integers & Expressions,medium,integer multiplication,Multiply: -6 × 1.,-6
+225,Ratios & Percentages,medium,discounts,An item costs $24 and is discounted 30%. What is the sale price?,$16.80
+240,Ratios & Percentages,easy,percent of a number,Find 5% of 200.,10
+229,Ratios & Percentages,hard,percent increase,A value increases from 156 to 171.6. What is the percent increase?,10%
+322,Integers & Expressions,hard,simplifying expressions,Simplify: 8q - 2(3q + 5).,2q - 10
+115,Fractions & Decimals,medium,multiplying fractions,Multiply: 5/6 × 23.,115/6
+85,Geometry,medium,area of circles,Estimate the area of a circle with radius 3 inches using π ≈ 3.14.,28.26 square inches
+211,Statistics & Probability,hard,outliers,"Identify the possible outlier in this data set and explain why: [28, 40, 26, 37, 128].",128; it is much larger than the other values
+247,Ratios & Percentages,medium,proportions,A recipe uses 1 cups of flour for 8 cookies. How many cups are needed for 48 cookies?,6 cups
+32,Algebra,medium,multi-step equations,Solve: 8(x + 2) - 5 = 83.,9
+219,Ratios & Percentages,easy,simplifying ratios,Simplify the ratio 18:9.,2:1
+186,Statistics & Probability,easy,mode,"Find the mode of this data set: [1, 1, 12, 9, 9, 4].",1
+311,Integers & Expressions,hard,simplifying expressions,Simplify: 2(x + 3) + 4(x - 1).,6x + 2
+223,Ratios & Percentages,medium,discounts,An item costs $135 and is discounted 25%. What is the sale price?,$101.25
+270,Ratios & Percentages,hard,tips,A restaurant bill is $160 before a 20% tip. What is the total after tip?,$192.00
+141,Fractions & Decimals,medium,decimal addition,Add 3.56 and 0.96.,4.52
+60,Geometry,easy,area of rectangles,Find the area of a rectangle with length 16 units and width 10 units.,160 square units
+317,Integers & Expressions,hard,simplifying expressions,Simplify: 4 - 3(2y + 1).,1 - 6y
+7,Algebra,medium,linear equations in context,A club charges $6 plus $12 per visit. The total cost is $66. How many visits were made?,5 visits
+200,Statistics & Probability,medium,survey percentages,"In a survey of 40 students, 18 own a dog. What percentage of students own a dog?",45.0%
+31,Algebra,medium,multi-step equations,Solve: 6(x + 8) - 8 = 58.,3
+23,Algebra,easy,writing expressions,Write an algebraic expression for: half of a number increased by 8.,x/2 + 8
+276,Integers & Expressions,easy,integer addition,Evaluate: 8 + 5.,13
+249,Ratios & Percentages,medium,proportions,A recipe uses 6 cups of flour for 60 cookies. How many cups are needed for 24 cookies?,2.4 cups
+57,Geometry,easy,area of rectangles,Find the area of a rectangle with length 11 units and width 12 units.,132 square units
+169,Statistics & Probability,medium,simple probability,"A spinner has 4 equal sections, and 2 sections are blue. What is the probability of landing on blue?",1/2
+199,Statistics & Probability,medium,survey percentages,"In a survey of 60 students, 38 own a dog. What percentage of students own a dog?",63.3%
+262,Ratios & Percentages,hard,tips,A restaurant bill is $151 before a 15% tip. What is the total after tip?,$173.65
+82,Geometry,easy,triangle angles,A triangle has two angles measuring 75° and 73°. Find the third angle.,32°
+149,Fractions & Decimals,hard,ordering rational numbers,"Order from least to greatest: 0.46, 1/2, 0.51.","0.46, 1/2, 0.51"
+40,Algebra,medium,multi-step equations,Solve: 5(x + 7) - 5 = 50.,4
+224,Ratios & Percentages,medium,discounts,An item costs $32 and is discounted 30%. What is the sale price?,$22.40
+307,Integers & Expressions,medium,order of operations,Evaluate: 30 - 4 × 6.,6
+185,Statistics & Probability,easy,mode,"Find the mode of this data set: [3, 5, 6, 1, 5, 1].",1
+154,Fractions & Decimals,hard,ordering rational numbers,"Order from least to greatest: 0.73, 7/5, 0.85.","0.73, 0.85, 7/5"
+114,Fractions & Decimals,easy,adding fractions,Add: 1/5 + 1.,6/5
+111,Fractions & Decimals,easy,adding fractions,Add: 3/4 + 1.,7/4
+67,Geometry,hard,Pythagorean theorem,A right triangle has legs 8 and 15. Find the hypotenuse length.,17
+228,Ratios & Percentages,medium,discounts,An item costs $87 and is discounted 5%. What is the sale price?,$82.65
+19,Algebra,easy,writing expressions,Write an algebraic expression for: five more than twice a number.,2x + 5
+257,Ratios & Percentages,hard,tips,A restaurant bill is $155 before a 20% tip. What is the total after tip?,$186.00
+119,Fractions & Decimals,medium,multiplying fractions,Multiply: 7/5 × 20.,28
+20,Algebra,easy,writing expressions,Write an algebraic expression for: three less than a number.,x - 3
+292,Integers & Expressions,easy,absolute value,Evaluate: |-25|.,25
+93,Geometry,medium,area of circles,Estimate the area of a circle with radius 11 inches using π ≈ 3.14.,379.94 square inches
+80,Geometry,easy,triangle angles,A triangle has two angles measuring 65° and 39°. Find the third angle.,76°
+238,Ratios & Percentages,easy,percent of a number,Find 20% of 60.,12
+156,Fractions & Decimals,hard,ordering rational numbers,"Order from least to greatest: 0.21, 2/3, 0.7.","0.21, 2/3, 0.7"
+73,Geometry,easy,triangle angles,A triangle has two angles measuring 69° and 79°. Find the third angle.,32°
+97,Geometry,hard,surface area,"A rectangular prism has length 8, width 7, and height 6. Find its surface area.",292 square units
+16,Algebra,hard,algebraic modeling,The perimeter of a rectangle is 52 inches. The length is 10 inches more than the width. Find both dimensions.,"width = 8 in, length = 18 in"
+112,Fractions & Decimals,easy,adding fractions,Add: 1/2 + 1/2.,1
+11,Algebra,medium,linear equations in context,A club charges $26 plus $5 per visit. The total cost is $51. How many visits were made?,5 visits
+184,Statistics & Probability,easy,mode,"Find the mode of this data set: [9, 4, 5, 8, 9, 11].",9
+70,Geometry,hard,Pythagorean theorem,A right triangle has legs 9 and 8. Find the hypotenuse length.,12.04
+98,Geometry,hard,surface area,"A rectangular prism has length 5, width 6, and height 10. Find its surface area.",280 square units
+164,Statistics & Probability,easy,mean,"Find the mean of this data set: [3, 7, 10, 6, 15].",8.2
+69,Geometry,hard,Pythagorean theorem,A right triangle has legs 3 and 8. Find the hypotenuse length.,8.54
+24,Algebra,easy,writing expressions,Write an algebraic expression for: the product of 6 and a number minus 1.,6x - 1
+38,Algebra,medium,multi-step equations,Solve: 7(x + 4) - 7 = 77.,8
+234,Ratios & Percentages,hard,percent increase,A value increases from 59 to 70.8. What is the percent increase?,20%
+68,Geometry,hard,Pythagorean theorem,A right triangle has legs 6 and 24. Find the hypotenuse length.,24.74
+272,Integers & Expressions,easy,integer addition,Evaluate: -6 + 11.,5
+140,Fractions & Decimals,medium,decimal addition,Add 3.84 and 5.14.,8.98
+126,Fractions & Decimals,hard,fraction word problems,A recipe needs 5/8 cup of sugar. You make 1 of the recipe. How much sugar do you need?,5/8 cup
+168,Statistics & Probability,easy,mean,"Find the mean of this data set: [15, 4, 10, 2, 22].",10.6
+87,Geometry,medium,area of circles,Estimate the area of a circle with radius 5 inches using π ≈ 3.14.,78.50 square inches
+287,Integers & Expressions,hard,integer change,The temperature changed from -26°F to 5°F. What was the change in temperature?,31°F
+148,Fractions & Decimals,hard,ordering rational numbers,"Order from least to greatest: 0.15, 1/2, 0.65.","0.15, 1/2, 0.65"
+275,Integers & Expressions,easy,integer addition,Evaluate: -20 + 11.,-9
+144,Fractions & Decimals,medium,decimal addition,Add 13.48 and 0.93.,14.41
+239,Ratios & Percentages,easy,percent of a number,Find 75% of 40.,30
+146,Fractions & Decimals,medium,decimal addition,Add 3.27 and 3.89.,7.16
+212,Statistics & Probability,hard,outliers,"Identify the possible outlier in this data set and explain why: [14, 31, 38, 32, 128].",128; it is much larger than the other values
+153,Fractions & Decimals,hard,ordering rational numbers,"Order from least to greatest: 0.29, 1/6, 0.64.","1/6, 0.29, 0.64"
+209,Statistics & Probability,hard,outliers,"Identify the possible outlier in this data set and explain why: [22, 28, 11, 22, 69].",69; it is much larger than the other values
+130,Fractions & Decimals,easy,decimal to fraction,Convert 0.2 to a fraction in simplest form.,1/5
+39,Algebra,medium,multi-step equations,Solve: 8(x + 8) - 2 = 94.,4
+226,Ratios & Percentages,medium,discounts,An item costs $156 and is discounted 30%. What is the sale price?,$109.20
+195,Statistics & Probability,medium,survey percentages,"In a survey of 80 students, 41 own a dog. What percentage of students own a dog?",51.2%
+159,Fractions & Decimals,hard,ordering rational numbers,"Order from least to greatest: 0.42, 2/3, 0.39.","0.39, 0.42, 2/3"
+113,Fractions & Decimals,easy,adding fractions,Add: 2/5 + 2/5.,4/5
+194,Statistics & Probability,medium,survey percentages,"In a survey of 80 students, 46 own a dog. What percentage of students own a dog?",57.5%
+118,Fractions & Decimals,medium,multiplying fractions,Multiply: 3/5 × 4.,12/5
+300,Integers & Expressions,medium,order of operations,Evaluate: 18 ÷ (-3).,-6
+313,Integers & Expressions,hard,simplifying expressions,Simplify: 4(2m + 1) - 2(m - 5).,6m + 14
+308,Integers & Expressions,medium,order of operations,Evaluate: 6(2 + 3).,30
+198,Statistics & Probability,medium,survey percentages,"In a survey of 50 students, 20 own a dog. What percentage of students own a dog?",40.0%
+203,Statistics & Probability,medium,survey percentages,"In a survey of 50 students, 12 own a dog. What percentage of students own a dog?",24.0%
+155,Fractions & Decimals,hard,ordering rational numbers,"Order from least to greatest: 0.61, 3/5, 0.3.","0.3, 3/5, 0.61"
+205,Statistics & Probability,hard,outliers,"Identify the possible outlier in this data set and explain why: [21, 15, 10, 20, 85].",85; it is much larger than the other values
+3,Algebra,easy,linear equations,Solve for x: 3x + 10 = 31.,7
+116,Fractions & Decimals,medium,multiplying fractions,Multiply: 3/5 × 15.,9
+288,Integers & Expressions,hard,integer change,The temperature changed from -6°F to 17°F. What was the change in temperature?,23°F
+204,Statistics & Probability,medium,survey percentages,"In a survey of 60 students, 23 own a dog. What percentage of students own a dog?",38.3%
+121,Fractions & Decimals,hard,fraction word problems,A recipe needs 7/4 cup of sugar. You make 1 of the recipe. How much sugar do you need?,7/4 cup
+245,Ratios & Percentages,medium,proportions,A recipe uses 2 cups of flour for 20 cookies. How many cups are needed for 48 cookies?,4.8 cups
+281,Integers & Expressions,medium,integer multiplication,Multiply: -9 × 1.,-9
+128,Fractions & Decimals,easy,decimal to fraction,Convert 0.5 to a fraction in simplest form.,1/2
+75,Geometry,easy,triangle angles,A triangle has two angles measuring 48° and 35°. Find the third angle.,97°
+30,Algebra,medium,multi-step equations,Solve: 6(x + 6) - 6 = 72.,7
+84,Geometry,easy,triangle angles,A triangle has two angles measuring 76° and 40°. Find the third angle.,64°
+269,Ratios & Percentages,hard,tips,A restaurant bill is $122 before a 18% tip. What is the total after tip?,$143.96
+108,Geometry,hard,surface area,"A rectangular prism has length 3, width 8, and height 4. Find its surface area.",136 square units
+177,Statistics & Probability,hard,compound probability,Two dice are rolled. What is the probability that their sum is 7?,1/6
+183,Statistics & Probability,easy,mode,"Find the mode of this data set: [1, 3, 4, 5, 11, 5].",5
+134,Fractions & Decimals,easy,decimal to fraction,Convert 0.8 to a fraction in simplest form.,4/5
+221,Ratios & Percentages,easy,simplifying ratios,Simplify the ratio 12:27.,4:9
+251,Ratios & Percentages,medium,proportions,A recipe uses 3 cups of flour for 24 cookies. How many cups are needed for 48 cookies?,6 cups
+299,Integers & Expressions,medium,order of operations,Evaluate: 2(3 + 5) - 4.,12
+66,Geometry,medium,area of triangles,Find the area of a triangle with base 17 cm and height 9 cm.,76.5 square cm
+230,Ratios & Percentages,hard,percent increase,A value increases from 168 to 218.4. What is the percent increase?,30%
+86,Geometry,medium,area of circles,Estimate the area of a circle with radius 4 inches using π ≈ 3.14.,50.24 square inches
+248,Ratios & Percentages,medium,proportions,A recipe uses 3 cups of flour for 18 cookies. How many cups are needed for 40 cookies?,6.66667 cups
+160,Fractions & Decimals,hard,ordering rational numbers,"Order from least to greatest: 0.17, 1, 0.37.","0.17, 0.37, 1"
+13,Algebra,hard,algebraic modeling,The perimeter of a rectangle is 64 inches. The length is 10 inches more than the width. Find both dimensions.,"width = 11 in, length = 21 in"
+36,Algebra,medium,multi-step equations,Solve: 4(x + 3) - 2 = 46.,9
+29,Algebra,medium,multi-step equations,Solve: 5(x + 1) - 2 = 53.,10
+171,Statistics & Probability,medium,simple probability,"A spinner has 6 equal sections, and 1 sections are blue. What is the probability of landing on blue?",1/6
+143,Fractions & Decimals,medium,decimal addition,Add 8.27 and 6.32.,14.59
+222,Ratios & Percentages,easy,simplifying ratios,Simplify the ratio 10:28.,5:14
+132,Fractions & Decimals,easy,decimal to fraction,Convert 0.4 to a fraction in simplest form.,2/5
+196,Statistics & Probability,medium,survey percentages,"In a survey of 100 students, 47 own a dog. What percentage of students own a dog?",47.0%
+52,Algebra,hard,variables on both sides,Solve: 9x + 2 = 3x + 32.,5
+96,Geometry,medium,area of circles,Estimate the area of a circle with radius 14 inches using π ≈ 3.14.,615.44 square inches
+241,Ratios & Percentages,easy,percent of a number,Find 12% of 150.,18
+179,Statistics & Probability,hard,compound probability,Two dice are rolled. What is the probability that their sum is 7?,1/6
+256,Ratios & Percentages,hard,tips,A restaurant bill is $55 before a 18% tip. What is the total after tip?,$64.90
+42,Algebra,medium,multi-step equations,Solve: 4(x + 7) - 4 = 40.,4
+90,Geometry,medium,area of circles,Estimate the area of a circle with radius 8 inches using π ≈ 3.14.,200.96 square inches
+310,Integers & Expressions,hard,simplifying expressions,Simplify: 3(a + 4) - 2a.,a + 12
+137,Fractions & Decimals,medium,decimal addition,Add 8.64 and 7.05.,15.69
+27,Algebra,easy,writing expressions,Write an algebraic expression for: twice the difference of a number and 4.,2(x - 4)
+318,Integers & Expressions,hard,simplifying expressions,Simplify: 5(2a - 3) - 4a.,6a - 15
+142,Fractions & Decimals,medium,decimal addition,Add 10.87 and 4.48.,15.35
+233,Ratios & Percentages,hard,percent increase,A value increases from 161 to 193.2. What is the percent increase?,20%
+1,Algebra,easy,linear equations,Solve for x: 7x + 7 = 35.,4
+291,Integers & Expressions,easy,absolute value,Evaluate: |-3|.,3
+278,Integers & Expressions,medium,integer multiplication,Multiply: 4 × 2.,8
+295,Integers & Expressions,easy,absolute value,Evaluate: |-30|.,30
+101,Geometry,hard,surface area,"A rectangular prism has length 9, width 4, and height 6. Find its surface area.",228 square units
+193,Statistics & Probability,medium,survey percentages,"In a survey of 100 students, 58 own a dog. What percentage of students own a dog?",58.0%
+279,Integers & Expressions,medium,integer multiplication,Multiply: 3 × 1.,3
+214,Statistics & Probability,hard,outliers,"Identify the possible outlier in this data set and explain why: [33, 25, 14, 19, 119].",119; it is much larger than the other values
+104,Geometry,hard,surface area,"A rectangular prism has length 3, width 3, and height 10. Find its surface area.",138 square units
+172,Statistics & Probability,medium,simple probability,"A spinner has 8 equal sections, and 7 sections are blue. What is the probability of landing on blue?",7/8
+99,Geometry,hard,surface area,"A rectangular prism has length 7, width 7, and height 3. Find its surface area.",182 square units
+37,Algebra,medium,multi-step equations,Solve: 2(x + 4) - 5 = 11.,4
+284,Integers & Expressions,hard,integer change,The temperature changed from 15°F to -20°F. What was the change in temperature?,-35°F
+62,Geometry,medium,area of triangles,Find the area of a triangle with base 13 cm and height 11 cm.,71.5 square cm
+151,Fractions & Decimals,hard,ordering rational numbers,"Order from least to greatest: 0.81, 1/5, 0.21.","1/5, 0.21, 0.81"
+48,Algebra,hard,variables on both sides,Solve: 2x + 11 = 1x + 21.,10
+235,Ratios & Percentages,easy,percent of a number,Find 25% of 80.,20
+268,Ratios & Percentages,hard,tips,A restaurant bill is $66 before a 20% tip. What is the total after tip?,$79.20
+12,Algebra,medium,linear equations in context,A club charges $22 plus $4 per visit. The total cost is $74. How many visits were made?,13 visits
+321,Integers & Expressions,hard,simplifying expressions,Simplify: -5(p - 2) + 2p.,-3p + 10
+201,Statistics & Probability,medium,survey percentages,"In a survey of 60 students, 31 own a dog. What percentage of students own a dog?",51.7%
+290,Integers & Expressions,easy,absolute value,Evaluate: |-12|.,12
+28,Algebra,medium,multi-step equations,Solve: 8(x + 6) - 3 = 117.,9
+254,Ratios & Percentages,medium,proportions,A recipe uses 1 cups of flour for 8 cookies. How many cups are needed for 18 cookies?,2.25 cups
+231,Ratios & Percentages,hard,percent increase,A value increases from 63 to 88.2. What is the percent increase?,40%
+5,Algebra,easy,linear equations,Solve for x: 2x + 7 = 13.,3
+123,Fractions & Decimals,hard,fraction word problems,A recipe needs 1/4 cup of sugar. You make 1 of the recipe. How much sugar do you need?,1/4 cup
+33,Algebra,medium,multi-step equations,Solve: 7(x + 2) - 1 = 55.,6
+255,Ratios & Percentages,medium,proportions,A recipe uses 4 cups of flour for 32 cookies. How many cups are needed for 48 cookies?,6 cups
+163,Statistics & Probability,easy,mean,"Find the mean of this data set: [9, 5, 4, 10, 10].",7.6
+243,Ratios & Percentages,easy,percent of a number,Find 60% of 250.,150
+306,Integers & Expressions,medium,order of operations,Evaluate: 2^3 + 10.,18
+139,Fractions & Decimals,medium,decimal addition,Add 12.09 and 1.62.,13.71
+63,Geometry,medium,area of triangles,Find the area of a triangle with base 13 cm and height 11 cm.,71.5 square cm
+216,Statistics & Probability,hard,outliers,"Identify the possible outlier in this data set and explain why: [38, 26, 30, 23, 124].",124; it is much larger than the other values
+136,Fractions & Decimals,medium,decimal addition,Add 3.7 and 1.64.,5.34
+302,Integers & Expressions,medium,order of operations,Evaluate: 5^2 - 6.,19
+129,Fractions & Decimals,easy,decimal to fraction,Convert 0.25 to a fraction in simplest form.,1/4
+315,Integers & Expressions,hard,simplifying expressions,Simplify: 7(k - 1) - 2(3k + 4).,k - 15
+9,Algebra,medium,linear equations in context,A club charges $6 plus $11 per visit. The total cost is $72. How many visits were made?,6 visits
+71,Geometry,hard,Pythagorean theorem,A right triangle has legs 3 and 24. Find the hypotenuse length.,24.19
+286,Integers & Expressions,hard,integer change,The temperature changed from -14°F to 3°F. What was the change in temperature?,17°F
+65,Geometry,medium,area of triangles,Find the area of a triangle with base 8 cm and height 5 cm.,20 square cm
+45,Algebra,hard,variables on both sides,Solve: 4x + 5 = 2x + 27.,11
+15,Algebra,hard,algebraic modeling,The perimeter of a rectangle is 72 inches. The length is 4 inches more than the width. Find both dimensions.,"width = 16 in, length = 20 in"
+157,Fractions & Decimals,hard,ordering rational numbers,"Order from least to greatest: 0.18, 4/5, 0.89.","0.18, 4/5, 0.89"
+41,Algebra,medium,multi-step equations,Solve: 8(x + 7) - 5 = 115.,8
+261,Ratios & Percentages,hard,tips,A restaurant bill is $109 before a 15% tip. What is the total after tip?,$125.35
+124,Fractions & Decimals,hard,fraction word problems,A recipe needs 5/6 cup of sugar. You make 1 of the recipe. How much sugar do you need?,5/6 cup
+298,Integers & Expressions,medium,order of operations,Evaluate: 3^2 + 4.,13
+283,Integers & Expressions,hard,integer change,The temperature changed from -23°F to -8°F. What was the change in temperature?,15°F
+217,Ratios & Percentages,easy,simplifying ratios,Simplify the ratio 36:12.,3:1
+282,Integers & Expressions,medium,integer multiplication,Multiply: 1 × 3.,3
+237,Ratios & Percentages,easy,percent of a number,Find 10% of 250.,25
+208,Statistics & Probability,hard,outliers,"Identify the possible outlier in this data set and explain why: [12, 18, 36, 12, 85].",85; it is much larger than the other values
+213,Statistics & Probability,hard,outliers,"Identify the possible outlier in this data set and explain why: [38, 29, 22, 34, 98].",98; it is much larger than the other values
+296,Integers & Expressions,easy,absolute value,Evaluate: |-14|.,14
+252,Ratios & Percentages,medium,proportions,A recipe uses 6 cups of flour for 60 cookies. How many cups are needed for 30 cookies?,3 cups
+316,Integers & Expressions,hard,simplifying expressions,Simplify: -2(3x - 4) + 5x.,-x + 8
+202,Statistics & Probability,medium,survey percentages,"In a survey of 80 students, 51 own a dog. What percentage of students own a dog?",63.7%
+162,Fractions & Decimals,hard,ordering rational numbers,"Order from least to greatest: 0.51, 3/4, 0.19.","0.19, 0.51, 3/4"
+44,Algebra,hard,variables on both sides,Solve: 5x + 8 = 1x + 56.,12
+218,Ratios & Percentages,easy,simplifying ratios,Simplify the ratio 36:5.,36:5
+191,Statistics & Probability,easy,mode,"Find the mode of this data set: [6, 1, 3, 1, 2, 11].",1
+260,Ratios & Percentages,hard,tips,A restaurant bill is $60 before a 18% tip. What is the total after tip?,$70.80
+106,Geometry,hard,surface area,"A rectangular prism has length 9, width 6, and height 3. Find its surface area.",198 square units
+54,Algebra,hard,variables on both sides,Solve: 4x + 2 = 3x + 13.,11
+2,Algebra,easy,linear equations,Solve for x: 2x + 14 = 20.,3
+50,Algebra,hard,variables on both sides,Solve: 3x + 11 = 2x + 19.,8
+81,Geometry,easy,triangle angles,A triangle has two angles measuring 64° and 76°. Find the third angle.,40°
+206,Statistics & Probability,hard,outliers,"Identify the possible outlier in this data set and explain why: [12, 25, 18, 26, 107].",107; it is much larger than the other values
+35,Algebra,medium,multi-step equations,Solve: 7(x + 6) - 1 = 104.,9
+264,Ratios & Percentages,hard,tips,A restaurant bill is $49 before a 22% tip. What is the total after tip?,$59.78
+92,Geometry,medium,area of circles,Estimate the area of a circle with radius 10 inches using π ≈ 3.14.,314.00 square inches
+53,Algebra,hard,variables on both sides,Solve: 2x + 1 = 1x + 8.,7
+265,Ratios & Percentages,hard,tips,A restaurant bill is $98 before a 22% tip. What is the total after tip?,$119.56
+242,Ratios & Percentages,easy,percent of a number,Find 35% of 120.,42
+14,Algebra,hard,algebraic modeling,The perimeter of a rectangle is 70 inches. The length is 9 inches more than the width. Find both dimensions.,"width = 13 in, length = 22 in"
+89,Geometry,medium,area of circles,Estimate the area of a circle with radius 7 inches using π ≈ 3.14.,153.86 square inches
+274,Integers & Expressions,easy,integer addition,Evaluate: -19 + -10.,-29
+167,Statistics & Probability,easy,mean,"Find the mean of this data set: [4, 10, 3, 24, 7].",9.6
+319,Integers & Expressions,hard,simplifying expressions,Simplify: -3(x + 2) + 7x.,4x - 6
+135,Fractions & Decimals,easy,decimal to fraction,Convert 0.375 to a fraction in simplest form.,3/8
+312,Integers & Expressions,hard,simplifying expressions,Simplify: 5(y - 2) - 3(y + 1).,2y - 13
+244,Ratios & Percentages,medium,proportions,A recipe uses 2 cups of flour for 20 cookies. How many cups are needed for 24 cookies?,2.4 cups
+55,Geometry,easy,area of rectangles,Find the area of a rectangle with length 16 units and width 12 units.,192 square units
+51,Algebra,hard,variables on both sides,Solve: 2x + 2 = 1x + 10.,8
+175,Statistics & Probability,hard,compound probability,Two dice are rolled. What is the probability that their sum is 7?,1/6
+190,Statistics & Probability,easy,mode,"Find the mode of this data set: [4, 12, 12, 11, 3, 7].",12
+323,Integers & Expressions,hard,simplifying expressions,Simplify: 9r + 4 - 3(r - 2).,6r + 10
+188,Statistics & Probability,easy,mode,"Find the mode of this data set: [11, 7, 11, 8, 9, 7].",11
+170,Statistics & Probability,medium,simple probability,"A spinner has 4 equal sections, and 3 sections are blue. What is the probability of landing on blue?",3/4
+59,Geometry,easy,area of rectangles,Find the area of a rectangle with length 13 units and width 8 units.,104 square units
+49,Algebra,hard,variables on both sides,Solve: 8x + 7 = 4x + 47.,10
+236,Ratios & Percentages,easy,percent of a number,Find 50% of 36.,18
+253,Ratios & Percentages,medium,proportions,A recipe uses 5 cups of flour for 50 cookies. How many cups are needed for 24 cookies?,2.4 cups
+22,Algebra,easy,writing expressions,Write an algebraic expression for: ten less than three times a number.,3x - 10
+161,Fractions & Decimals,hard,ordering rational numbers,"Order from least to greatest: 0.47, 2, 0.41.","0.41, 0.47, 2"
+277,Integers & Expressions,medium,integer multiplication,Multiply: 4 × -5.,-20
+192,Statistics & Probability,easy,mode,"Find the mode of this data set: [12, 5, 7, 3, 1, 2].",1
+294,Integers & Expressions,easy,absolute value,Evaluate: |-7|.,7
+258,Ratios & Percentages,hard,tips,A restaurant bill is $103 before a 22% tip. What is the total after tip?,$125.66
+309,Integers & Expressions,medium,order of operations,Evaluate: 9^2 - 1.,80
+150,Fractions & Decimals,hard,ordering rational numbers,"Order from least to greatest: 0.3, 5/7, 0.84.","0.3, 5/7, 0.84"
+131,Fractions & Decimals,easy,decimal to fraction,Convert 0.125 to a fraction in simplest form.,1/8
+152,Fractions & Decimals,hard,ordering rational numbers,"Order from least to greatest: 0.2, 1/2, 0.16.","0.16, 0.2, 1/2"
+100,Geometry,hard,surface area,"A rectangular prism has length 2, width 8, and height 7. Find its surface area.",172 square units
+88,Geometry,medium,area of circles,Estimate the area of a circle with radius 6 inches using π ≈ 3.14.,113.04 square inches
+215,Statistics & Probability,hard,outliers,"Identify the possible outlier in this data set and explain why: [29, 30, 14, 11, 115].",115; it is much larger than the other values
+122,Fractions & Decimals,hard,fraction word problems,A recipe needs 3/4 cup of sugar. You make 3/4 of the recipe. How much sugar do you need?,9/16 cup
+324,Integers & Expressions,hard,simplifying expressions,Simplify: 10s - 2(2s + 1).,6s - 2
+21,Algebra,easy,writing expressions,Write an algebraic expression for: four times the sum of a number and 2.,4(x + 2)
+189,Statistics & Probability,easy,mode,"Find the mode of this data set: [9, 5, 12, 4, 4, 6].",4
+72,Geometry,hard,Pythagorean theorem,A right triangle has legs 8 and 4. Find the hypotenuse length.,8.94
+107,Geometry,hard,surface area,"A rectangular prism has length 9, width 7, and height 8. Find its surface area.",382 square units
+271,Integers & Expressions,easy,integer addition,Evaluate: -13 + 3.,-10
+103,Geometry,hard,surface area,"A rectangular prism has length 7, width 2, and height 6. Find its surface area.",136 square units
+325,Algebra,easy,,Solve for x: 3x + 6 = 18.,4.0
+326,Geometry,easy,,Find the area of a circle with radius 5.,78.5
