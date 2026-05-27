@@ -1,37 +1,63 @@
 # Adaptive Learning Platform for Middle School Math
 
-An AI-powered adaptive math learning platform that dynamically adjusts question difficulty based on student performance analytics, machine learning predictions, and teacher review workflows.
+An AI-powered adaptive learning system with:
+- Machine learning question tagging
+- Dynamic difficulty recalibration
+- Teacher-in-the-loop review workflows
+- Real-time PostgreSQL analytics
+
+<p align="center">
+  <img src="images/Project Intro.png" width="1200">
+</p>
+
+---
+
+# Table of Contents
+
+- [Demo](#demo)
+- [Project Overview](#project-overview)
+- [Features](#features)
+  - [Student Features](#student-features)
+  - [Teacher Features](#teacher-features)
+  - [Machine Learning Features](#machine-learning-features)
+  - [Backend Features](#backend-features)
+- [System Architecture](#system-architecture)
+- [Machine Learning Logic](#machine-learning-logic)
+  - [Topic Classification](#topic-classification)
+  - [Difficulty Classification](#difficulty-classification)
+- [Adaptive Difficulty Logic](#adaptive-difficulty-logic)
+  - [Student-Level Adaptation](#student-level-adaptation)
+  - [Question-Level Difficulty Recalibration](#question-level-difficulty-recalibration)
+  - [Recalibration Workflow](#recalibration-workflow)
+- [Teacher Review Workflow](#teacher-review-workflow)
+  - [New Question Review](#new-question-review)
+  - [Difficulty Review Workflow](#difficulty-review-workflow)
+- [Project Structure](#project-structure)
+- [Local Setup](#local-setup)
+- [Deployment](#deployment)
+- [Future Improvements](#future-improvements)
 
 ---
 
 # Demo
 
 ## Student login Interface
-
-Add screenshot here:
-
-```md
-![Login Page](images/Login Interface.png)
-```
+<p align="center">
+  <img src="images/Login Interface.png" width="1200">
+</p>
 
 ---
 ## Student Topic Selection
-
-Add screenshot here:
-
-```md
-![Student Topic Selection](images/Topic Selection.png)
-```
+<p align="center">
+  <img src="images/Topic Selection.png" width="1200">
+</p>
 
 ---
 
-## Difficulty Recalibration Review
-
-Add screenshot here:
-
-```md
-![Difficulty Review](images/difficulty_review.png)
-```
+## Performance Tracking
+<p align="center">
+  <img src="images/Performance.png" width="1200">
+</p>
 
 ---
 
@@ -124,49 +150,6 @@ Machine Learning Models
         ↓
 Teacher Review System
 ```
-
----
-
-# Tech Stack
-
-| Category | Technologies |
-|---|---|
-| Frontend | Streamlit |
-| Backend | Python |
-| Database | PostgreSQL (Neon) |
-| Machine Learning | Scikit-learn |
-| NLP | Sentence Transformers |
-| Data Processing | Pandas, NumPy |
-| ORM / SQL | SQLAlchemy |
-| Deployment | Streamlit Community Cloud |
-
----
-
-# Database Design
-
-## Core Tables
-
-### questions
-Stores approved question bank data.
-
-### review_questions
-Stores AI-tagged pending questions awaiting teacher review.
-
-### student_progress
-Stores latest student progress and correctness status.
-
-### student_attempts
-Stores all historical student attempts for analytics.
-
-### question_difficulty_stats
-Stores real-time aggregated question difficulty statistics.
-
-### difficulty_review_queue
-Stores questions requiring teacher difficulty recalibration review.
-
-### teachers
-Stores teacher authentication data.
-
 ---
 
 # Machine Learning Logic
@@ -430,13 +413,3 @@ The deployed version supports:
 - AI-generated explanations
 - Difficulty calibration using Item Response Theory (IRT)
 
----
-
-# Author
-
-Chia-Yu Wei
-
-GitHub:
-```text
-https://github.com/ChiayuuW
-```
