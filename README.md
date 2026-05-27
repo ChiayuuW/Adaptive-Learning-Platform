@@ -41,6 +41,9 @@ An AI-powered adaptive learning system with:
 
 # Demo
 
+## Live Demo
+[Click to try demo here](https://adaptive-learning-platform-kflvrjw6gz4ukmksaeewpm.streamlit.app/)
+
 ## Student login Interface
 <p align="center">
   <img src="images/Login Interface.png" width="1200">
