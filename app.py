@@ -115,22 +115,6 @@ def teacher_review_page():
         logout()
         st.rerun()
 
-    st.markdown("## Teacher Question Review")
-
-    review_df = load_review_questions()
-
-    if review_df.empty:
-        st.info("No review file found. Run ingest_questions.py first.")
-        return
-
-    pending_df = review_df[
-        review_df["review_status"].str.lower() == "pending"
-    ]
-
-    if pending_df.empty:
-        st.success("No pending questions.")
-        return
-
     topic_options = [
         "Algebra",
         "Geometry",
@@ -142,53 +126,121 @@ def teacher_review_page():
 
     difficulty_options = ["easy", "medium", "hard"]
 
-    for idx, row in pending_df.iterrows():
-        review_id = row["review_id"]
+    st.markdown("## New Question Review")
 
-        with st.container():
-            st.markdown("---")
-            st.markdown(f"### Pending Question #{review_id}")
+    review_df = load_review_questions()
 
-            st.markdown(f"**Question:** {row['question']}")
-            st.markdown(f"**Answer:** {row['answer']}")
+    if review_df.empty:
+        st.info("No new question review items.")
+    else:
+        pending_df = review_df[
+            review_df["review_status"].str.lower() == "pending"
+        ]
 
-            predicted_topic = row.get("predicted_topic", topic_options[0])
-            predicted_difficulty = row.get("predicted_difficulty", "medium")
+        if pending_df.empty:
+            st.success("No pending new questions.")
+        else:
+            for idx, row in pending_df.iterrows():
+                review_id = row["review_id"]
 
-            col1, col2 = st.columns(2)
+                with st.container():
+                    st.markdown("---")
+                    st.markdown(f"### Pending Question #{review_id}")
 
-            with col1:
-                selected_topic = st.selectbox(
-                    "Topic",
-                    topic_options,
-                    index=topic_options.index(predicted_topic)
-                    if predicted_topic in topic_options else 0,
-                    key=f"topic_review_{idx}"
+                    st.markdown(f"**Question:** {row['question']}")
+                    st.markdown(f"**Answer:** {row['answer']}")
+
+                    predicted_topic = row.get("predicted_topic", topic_options[0])
+                    predicted_difficulty = row.get("predicted_difficulty", "medium")
+
+                    col1, col2 = st.columns(2)
+
+                    with col1:
+                        selected_topic = st.selectbox(
+                            "Topic",
+                            topic_options,
+                            index=topic_options.index(predicted_topic)
+                            if predicted_topic in topic_options else 0,
+                            key=f"topic_review_{review_id}"
+                        )
+
+                    with col2:
+                        selected_difficulty = st.selectbox(
+                            "Difficulty",
+                            difficulty_options,
+                            index=difficulty_options.index(predicted_difficulty)
+                            if predicted_difficulty in difficulty_options else 1,
+                            key=f"difficulty_review_{review_id}"
+                        )
+
+                    col3, col4 = st.columns(2)
+
+                    with col3:
+                        if st.button(
+                            "Approve and Add to Question Bank",
+                            key=f"approve_{review_id}"
+                        ):
+                            approve_question(
+                                review_id,
+                                selected_topic,
+                                selected_difficulty
+                            )
+                            st.success("Question approved and added.")
+                            st.rerun()
+
+                    with col4:
+                        if st.button("Reject", key=f"reject_{review_id}"):
+                            reject_question(review_id)
+                            st.warning("Question rejected.")
+                            st.rerun()
+
+    st.markdown("---")
+    st.markdown("## Difficulty Review")
+
+    difficulty_df = load_difficulty_reviews()
+
+    if difficulty_df.empty:
+        st.info("No difficulty review items.")
+    else:
+        for _, row in difficulty_df.iterrows():
+            review_id = row["review_id"]
+
+            with st.container():
+                st.markdown("---")
+                st.markdown(f"### Difficulty Review #{review_id}")
+
+                st.markdown(f"**Question:** {row['question']}")
+                st.markdown(f"**Current Difficulty:** {row['current_difficulty']}")
+                st.markdown(f"**Recommended Difficulty:** {row['recommended_difficulty']}")
+                st.markdown(
+                    f"**Average Attempts Until Correct:** "
+                    f"{row['avg_attempts']:.2f}"
                 )
+                st.markdown(f"**Students Analyzed:** {row['student_count']}")
+                st.markdown(f"**Reason:** {row['reason']}")
 
-            with col2:
-                selected_difficulty = st.selectbox(
-                    "Difficulty",
+                selected_final_difficulty = st.selectbox(
+                    "Teacher Final Difficulty",
                     difficulty_options,
-                    index=difficulty_options.index(predicted_difficulty)
-                    if predicted_difficulty in difficulty_options else 1,
-                    key=f"difficulty_review_{idx}"
+                    index=difficulty_options.index(row["recommended_difficulty"])
+                    if row["recommended_difficulty"] in difficulty_options else 1,
+                    key=f"final_diff_{review_id}"
                 )
 
-            col3, col4 = st.columns(2)
-
-            with col3:
-                if st.button("Approve and Add to Question Bank", key=f"approve_{review_id}"):
-                    approve_question(review_id, selected_topic, selected_difficulty)
-                    st.success("Question approved and added.")
+                if st.button(
+                    "Save Difficulty Decision",
+                    key=f"save_diff_{review_id}"
+                ):
+                    update_reviewed_difficulty(
+                        review_id,
+                        row["question_id"],
+                        selected_final_difficulty
+                    )
+                    st.success(
+                        "Difficulty updated and removed from review queue."
+                    )
                     st.rerun()
-
-            with col4:
-                if st.button("Reject", key=f"reject_{review_id}"):
-                    reject_question(review_id)
-                    st.warning("Question rejected.")
-                    st.rerun()
-
+                    
 def load_review_questions():
     rows = fetch_all("""
         SELECT
@@ -300,6 +352,73 @@ def reject_question(review_id):
         "review_id": int(review_id)
     })
 
+def load_difficulty_reviews():
+    rows = fetch_all("""
+        SELECT
+            dq.review_id,
+            dq.question_id,
+            q.question,
+            dq.current_difficulty,
+            dq.recommended_difficulty,
+            dq.avg_attempts,
+            dq.student_count,
+            dq.reason,
+            dq.review_status,
+            dq.created_at
+        FROM difficulty_review_queue dq
+        JOIN questions q
+            ON q.question_id = dq.question_id
+        WHERE dq.review_status = 'pending'
+        ORDER BY dq.created_at
+    """)
+
+    return pd.DataFrame(
+        rows,
+        columns=[
+            "review_id",
+            "question_id",
+            "question",
+            "current_difficulty",
+            "recommended_difficulty",
+            "avg_attempts",
+            "student_count",
+            "reason",
+            "review_status",
+            "created_at"
+        ]
+    )
+
+
+def update_reviewed_difficulty(review_id, question_id, selected_difficulty):
+    execute_query("""
+        UPDATE questions
+        SET difficulty = :selected_difficulty
+        WHERE question_id = :question_id
+    """, {
+        "selected_difficulty": selected_difficulty,
+        "question_id": int(question_id)
+    })
+
+    execute_query("""
+        DELETE FROM difficulty_review_queue
+        WHERE review_id = :review_id
+    """, {
+        "review_id": int(review_id)
+    })
+
+    st.cache_data.clear()
+
+
+def keep_current_difficulty(review_id):
+    execute_query("""
+        UPDATE difficulty_review_queue
+        SET review_status = 'rejected',
+            reviewed_at = CURRENT_TIMESTAMP
+        WHERE review_id = :review_id
+    """, {
+        "review_id": int(review_id)
+    })
+
 def is_valid_teacher(teacher_id):
     result = fetch_one("""
         SELECT teacher_id
@@ -381,6 +500,117 @@ def save_student_attempt(student_id, question_id, topic, difficulty, is_correct_
         "student_answer": answer
     })
 
+def update_question_difficulty_stats(question_id):
+    execute_query("""
+        INSERT INTO question_difficulty_stats (
+            question_id,
+            avg_attempts_until_correct,
+            student_count,
+            recommended_difficulty,
+            updated_at
+        )
+
+        WITH ordered_attempts AS (
+            SELECT
+                student_id,
+                question_id::INTEGER AS question_id,
+                is_correct,
+                created_at,
+                ROW_NUMBER() OVER (
+                    PARTITION BY student_id, question_id
+                    ORDER BY created_at
+                ) AS attempt_number
+            FROM student_attempts
+            WHERE question_id = :question_id
+        ),
+
+        first_correct AS (
+            SELECT
+                student_id,
+                question_id,
+                MIN(attempt_number) AS attempts_until_correct
+            FROM ordered_attempts
+            WHERE is_correct = 1
+            GROUP BY student_id, question_id
+        ),
+
+        stats AS (
+            SELECT
+                question_id,
+                AVG(attempts_until_correct) AS avg_attempts,
+                COUNT(*) AS student_count
+            FROM first_correct
+            GROUP BY question_id
+        ),
+
+        recommendation AS (
+            SELECT
+                question_id,
+                avg_attempts,
+                student_count,
+                CASE
+                    WHEN avg_attempts <= 1.4 THEN 'easy'
+                    WHEN avg_attempts <= 2.2 THEN 'medium'
+                    ELSE 'hard'
+                END AS recommended_difficulty
+            FROM stats
+        )
+
+        SELECT
+            question_id,
+            avg_attempts,
+            student_count,
+            recommended_difficulty,
+            CURRENT_TIMESTAMP
+        FROM recommendation
+
+        ON CONFLICT (question_id)
+        DO UPDATE SET
+            avg_attempts_until_correct = EXCLUDED.avg_attempts_until_correct,
+            student_count = EXCLUDED.student_count,
+            recommended_difficulty = EXCLUDED.recommended_difficulty,
+            updated_at = CURRENT_TIMESTAMP
+    """, {
+        "question_id": str(question_id)
+    })
+
+def check_difficulty_mismatch(question_id):
+    execute_query("""
+        INSERT INTO difficulty_review_queue (
+            question_id,
+            current_difficulty,
+            recommended_difficulty,
+            avg_attempts,
+            student_count,
+            reason,
+            review_status,
+            created_at
+        )
+
+        SELECT
+            q.question_id,
+            q.difficulty AS current_difficulty,
+            s.recommended_difficulty,
+            s.avg_attempts_until_correct,
+            s.student_count,
+            'Observed student attempts suggest a different difficulty level.',
+            'pending',
+            CURRENT_TIMESTAMP
+        FROM questions q
+        JOIN question_difficulty_stats s
+            ON q.question_id = s.question_id
+        WHERE q.question_id = :question_id
+          AND s.student_count >= 5
+          AND q.difficulty <> s.recommended_difficulty
+          AND NOT EXISTS (
+              SELECT 1
+              FROM difficulty_review_queue dq
+              WHERE dq.question_id = q.question_id
+                AND dq.review_status = 'pending'
+          )
+    """, {
+        "question_id": int(question_id)
+    })
 
 def get_recent_accuracy(student_id, topic, limit=5):
     rows = fetch_all("""
@@ -863,6 +1093,8 @@ def question_page(df):
                     1,
                     student_answer
                 )
+                update_question_difficulty_stats(qid)
+                check_difficulty_mismatch(qid)
 
             else:
                 st.session_state.last_result = "incorrect"
@@ -884,7 +1116,8 @@ def question_page(df):
                     0,
                     student_answer
                 )
-
+                update_question_difficulty_stats(qid)
+                check_difficulty_mismatch(qid)
             st.rerun()
 
     if st.session_state.last_result == "correct":

@@ -127,6 +127,21 @@ def main():
     print(f"Inserted {inserted_count} questions into review_questions table.")
     print("new_questions.csv has been cleared.")
 
+execute_query("""
+    CREATE TABLE IF NOT EXISTS difficulty_review_queue (
+        review_id SERIAL PRIMARY KEY,
+        question_id INTEGER NOT NULL,
+        current_difficulty TEXT NOT NULL,
+        recommended_difficulty TEXT NOT NULL,
+        avg_attempts_until_correct FLOAT NOT NULL,
+        student_count INTEGER NOT NULL,
+        reason TEXT,
+        review_status TEXT DEFAULT 'pending',
+        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+        reviewed_at TIMESTAMP
+    )
+""")
+
 
 if __name__ == "__main__":
     main()

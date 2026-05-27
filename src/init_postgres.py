@@ -59,6 +59,31 @@ def init_tables():
         )
     """)
 
+execute_query("""
+    CREATE TABLE IF NOT EXISTS difficulty_review_queue (
+        review_id SERIAL PRIMARY KEY,
+        question_id INTEGER NOT NULL,
+        current_difficulty TEXT NOT NULL,
+        recommended_difficulty TEXT NOT NULL,
+        avg_attempts FLOAT NOT NULL,
+        student_count INTEGER NOT NULL,
+        reason TEXT,
+        review_status TEXT DEFAULT 'pending',
+        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+        reviewed_at TIMESTAMP
+    )
+""")
+
+execute_query("""
+    CREATE TABLE IF NOT EXISTS question_difficulty_stats (
+        question_id INTEGER PRIMARY KEY,
+        avg_attempts_until_correct FLOAT DEFAULT 0,
+        student_count INTEGER DEFAULT 0,
+        recommended_difficulty TEXT,
+        updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    )
+""")
+
 if __name__ == "__main__":
     init_tables()
     print("PostgreSQL tables initialized.")
